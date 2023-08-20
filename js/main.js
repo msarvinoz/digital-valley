@@ -1,7 +1,3 @@
-let elFootForm = document.querySelector('.FooterForm')
-let elFootInp = document.querySelector('.footerEmail__input')
-let elFootBtn = document.querySelector('.footer__btn')
-
 var elForm = document.querySelector('.form')
 var elName = document.querySelector('.name')
 var elBirth = document.querySelector('.birth')
@@ -20,21 +16,3 @@ elForm.addEventListener( 'submit', (evn) => {
         elNumber.classList.remove('yashil')
 }
 })
-
-// by Sarvinoz
-function checkInput(){
-    elFootForm.addEventListener('submit', (e) => {
-        console.log(elFootInp.value);
-        if (elFootInp.value != "" && (elFootInp.value.includes('@gmail.com'))) {
-            elFootInp.classList.add('success')
-            console.log('valid email');
-            window.localStorage.setItem('email', elFootInp.value)
-        }
-        else {
-            elFootInp.classList.add('warning')
-            console.log('non valid email form');
-        }
-    });
-}
-
-
