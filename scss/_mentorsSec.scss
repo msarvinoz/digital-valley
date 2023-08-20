@@ -1,0 +1,128 @@
+/* mentors start */
+.mentors_container{
+    width: 1520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mentors {
+    margin-bottom: 120px;
+}
+.metor__title{
+    margin-top: 56px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 80px;
+    color: #004152;
+}
+.metors__list{
+    display: flex;
+    width: 1145px;
+    height: 686px;
+    gap: 45px;
+    list-style-type: none;
+    margin-top: 80px;
+    margin-left: 186px;
+}
+.metors__item{
+    width: 530px;
+    height: 560px;
+    border: 2px solid #004152;
+    border-top-left-radius:100px;
+    border-bottom-right-radius: 100px;
+    background-color: #004152;
+    text-align: center;
+   
+}
+.metors__item img {
+    width: 315px;
+    height: 315px;
+    margin: 0 auto;
+    margin-top: -100px;
+}
+.metors__item h4 {
+    margin-top: 79px;
+    color: #FFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.metors__item p {
+    color: #FFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+
+}
+.metor__box {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 125px;
+}
+
+.metors__item .metor__box img {
+    width: 20px;
+    height: 20px;
+}
+
+.teachers {
+    display: flex;
+    gap: 39px;
+    list-style-type: none;
+}
+.mentor_item {
+    width: 480px;
+    height: 513px;
+    border: 2px solid #004152;
+    border-top-left-radius:100px;
+    border-bottom-right-radius: 100px;
+    background-color: #004152;
+}
+.mentor_img {
+    width: 215px;
+    height: 223px;
+    margin-top: -100px;
+    margin-left: 132px;
+    margin-bottom: 80px;   
+}
+.mentor_item h4 {
+    color: #FFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 79px;
+    margin-bottom: 20px;
+}
+.mentor_item p {
+    color: #FFF;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.mentor__box {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+/* Mentors end */
+

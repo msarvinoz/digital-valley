@@ -1,0 +1,47 @@
+.hero__img{
+    width: 100vw;
+    height: 50vw;
+    object-fit: cover;
+}
+.data{
+    position: relative;
+    width: 1096px;
+    height: 80px;
+    background-color: #99CC00;
+    border-radius: 10px;
+    z-index: 1;
+    margin: 0 auto;
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .data__title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 36px;
+        font-size: 28px;
+        color: white;
+        display: flex;
+        text-align: center;
+        padding-top: 40px;
+    }
+    hr{
+        border: 2px solid white;
+        height: 80px;
+    }
+    .when{
+        width: 370px;
+        height: 80px;
+    }
+    .amount{
+        width: 370px;
+        height: 80px;
+
+    }
+    .partners{
+        width: 370px;
+        height: 80px;
+
+    }
+}

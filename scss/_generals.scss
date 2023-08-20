@@ -1,0 +1,38 @@
+// by Sarvinoz
+// font
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600&family=Public+Sans:wght@100;400;600&display=swap');
+/* for seo */
+.visually_hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0);
+}
+/* global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+input {
+    outline: none;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
+}

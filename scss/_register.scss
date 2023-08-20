@@ -1,0 +1,231 @@
+/* Register */
+
+.reg_title {
+    text-align: center;
+    margin-top: 50px;
+    color: #004152;
+    font-size: 42px;
+    font-weight: 500px;
+}
+.reg_title:hover{
+    color: #99CC00;
+}
+
+h4 {
+    text-align: center;
+    color: #004152;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-size: 34px;
+    font-weight: 400px;
+}
+h4:hover{
+    color: #99CC00;
+}
+.container {
+    margin: 0 auto;
+    width: 1500px;
+    height: 1470px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.inner_regis h3 {
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-size: 28px;
+    text-align: left;
+}
+.inner_regis h3:hover{
+    color: #99CC00;
+}
+
+.form {
+    margin-left: 50px;
+    width: 1394px;
+}
+
+.regis__parent {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.name {
+    border-radius: 15px;
+    outline: none;
+    padding: 30px 200px;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+.name:hover{
+    border:2px solid #99CC00;
+}
+
+.birth {
+    border-radius: 15px;
+    outline: none;
+    padding: 30px 220px;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+.birth:hover{
+    border:2px solid #99CC00;
+}
+
+.citizen {
+    border-radius: 15px;
+    outline: none;
+    padding: 30px 200px;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+.citizen:hover{
+    border:2px solid #99CC00;
+}
+
+.univer {
+    border-radius: 15px;
+    outline: none;
+    padding: 30px 200px;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+.univer:hover{
+    border:2px solid #99CC00;
+}
+
+.cefr{
+    width: 578px;
+    height: 53px;
+    background-color: white;
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 15px;
+    outline: none;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+.cefr:hover{
+    border:2px solid #99CC00;
+}
+.it {
+    width: 578px;
+    height: 53px;
+    background-color: white;
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 15px;
+    outline: none;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+.it:hover{
+    border:2px solid #99CC00;
+}
+.email {
+    border: 2px solid grey;
+    border-radius: 15px;
+    outline: none;
+    padding: 30px 200px;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+.email:hover{
+    border:2px solid #99CC00;
+}
+
+.number {
+    border:2px solid grey;
+    border-radius: 15px;
+    outline: none;
+    padding: 30px 200px;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+.number:hover{
+    border:2px solid #99CC00;
+}
+
+.region {
+    border-radius: 15px;
+    outline: none;
+    padding: 30px 200px;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+.region:hover{
+    border:2px solid #99CC00;
+}
+
+.education {
+    border-radius: 15px;
+    outline: none;
+    padding: 30px 200px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.education:hover{
+    border:2px solid #99CC00;
+}
+
+.lang {
+    border-radius: 15px;
+    outline: none;
+    padding: 30px 200px;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+.lang:hover{
+    border:2px solid #99CC00;
+}
+.student_cerf{
+    width: 578px;
+    height: 53px;
+    background-color: white;
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 15px;
+    outline: none;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+.student_cerf:hover{
+    border:2px solid #99CC00;
+
+}
+
+.reg__btn {
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 65px;
+    padding: 10px 660px;
+    border-radius: 15px;
+    background-color: #99CC00;
+    font-size: 25px;
+    color: #004152;
+}
+.reg__btn:hover{
+    background-color: #004152;
+    color: #99CC00;
+}
+input#file {
+    display: inline-block;
+    width: 100%;
+    padding: 80px 0 0 0;
+    height: 15px;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-size: 10px 30px;
+  }
+  .qizil{
+    border: 2px solid red;
+ }
+ .yashil{
+     border: 2px solid green;
+
+ }

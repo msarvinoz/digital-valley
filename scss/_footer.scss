@@ -1,0 +1,88 @@
+// by Sarvinoz
+.footer__info-container {
+    background-image: url('../img/footer.jpg');
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .footer__info {
+        z-index: 1;
+        background: transparent;
+        margin: 0 auto;
+        width: 280px;
+
+        h4 {
+            color: white;
+            text-align: start;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .info__con {
+            display: block;
+
+            .info__item {
+                color: white;
+            }
+
+            .icons {
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                .info__item:nth-child(2) {
+                    margin-left: 20px;
+                }
+
+                .info__item:nth-child(3) {
+                    margin-left: 20px;
+                }
+
+                .icon__img {
+                    width: 30px;
+                    height: 50px;
+                }
+            }
+        }
+        .info__con__inp{
+            margin-top: -30px;
+            .footer__text {
+                color: white;
+                margin-bottom: 18px;
+                font-size: 16px;
+            }
+            .footerEmail__input {
+                width: 200px;
+                height: 50px;
+                background: transparent;
+                border-radius: 10px 0 0 10px;
+                border: 2px solid white;
+            }
+            .footerEmail__input::placeholder{
+                color: white;
+                font-size: 16px;
+            }
+            .success{
+                border: 2px solid green;
+            }
+            .warning{
+                border: 2px solid red;
+            }            
+            .footer__btn{
+                width: 70px;
+                height: 50px;
+                font-size: 14px;
+                margin-left: -10px;
+                border-radius: 0 10px 10px 0;
+                border: 2px solid white;
+            }
+            .footer__btn:hover{
+                background-color: #9C0;
+                color: white;
+            }
+            .footer__btn:active{
+                background-color: grey;
+            }
+        }
+    }
+}
