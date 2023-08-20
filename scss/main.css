@@ -939,39 +939,20 @@ input#file {
   margin-bottom: 18px;
   font-size: 16px;
 }
-.footer__info-container .footer__info .info__con__inp .footerEmail__input {
-  width: 200px;
-  height: 50px;
+.footer__info-container .footer__info .info__con__inp .tg__bot {
   background: transparent;
-  border-radius: 10px 0 0 10px;
-  border: 2px solid white;
-}
-.footer__info-container .footer__info .info__con__inp .footerEmail__input::-moz-placeholder {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
   color: white;
-  font-size: 16px;
-}
-.footer__info-container .footer__info .info__con__inp .footerEmail__input::placeholder {
-  color: white;
-  font-size: 16px;
-}
-.footer__info-container .footer__info .info__con__inp .success {
-  border: 2px solid green;
-}
-.footer__info-container .footer__info .info__con__inp .warning {
-  border: 2px solid red;
-}
-.footer__info-container .footer__info .info__con__inp .footer__btn {
-  width: 70px;
-  height: 50px;
-  font-size: 14px;
   margin-left: -10px;
-  border-radius: 0 10px 10px 0;
+  border-radius: 20px;
   border: 2px solid white;
 }
-.footer__info-container .footer__info .info__con__inp .footer__btn:hover {
+.footer__info-container .footer__info .info__con__inp .tg__bot:hover {
   background-color: #9C0;
   color: white;
 }
-.footer__info-container .footer__info .info__con__inp .footer__btn:active {
+.footer__info-container .footer__info .info__con__inp .tg__bot:active {
   background-color: grey;
 }/*# sourceMappingURL=main.css.map */

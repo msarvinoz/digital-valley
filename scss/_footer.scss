@@ -50,37 +50,22 @@
                 color: white;
                 margin-bottom: 18px;
                 font-size: 16px;
-            }
-            .footerEmail__input {
-                width: 200px;
-                height: 50px;
+            }      
+            .tg__bot{
                 background: transparent;
-                border-radius: 10px 0 0 10px;
-                border: 2px solid white;
-            }
-            .footerEmail__input::placeholder{
+                width: 200px;
+                height: 40px;
+                font-size: 20px;
                 color: white;
-                font-size: 16px;
-            }
-            .success{
-                border: 2px solid green;
-            }
-            .warning{
-                border: 2px solid red;
-            }            
-            .footer__btn{
-                width: 70px;
-                height: 50px;
-                font-size: 14px;
                 margin-left: -10px;
-                border-radius: 0 10px 10px 0;
+                border-radius: 20px;
                 border: 2px solid white;
             }
-            .footer__btn:hover{
+            .tg__bot:hover{
                 background-color: #9C0;
                 color: white;
             }
-            .footer__btn:active{
+            .tg__bot:active{
                 background-color: grey;
             }
         }
