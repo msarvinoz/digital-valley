@@ -269,41 +269,41 @@
             <h4>Hurry up to Participate in the Digital Valley IT Camp</h4>
             <div class="container inner_regis">
                 <h3>Online IT Camp Register From</h3>
-                <form action="#" class="form">
+                <form action="POST" class="form">
                     <div class="regis__parent">
                         <div class="regis__left">
                             <table class="name_info">Your Full Name</table>
-                            <input type="text" class="name" required>
+                            <input type="text" class="name" name="name" required>
                             <br>
                             <table class="birth_info">Date Of Birth</table>
-                            <input type="date" class="birth" required>
+                            <input type="date" class="birth" name="birth" required>
                             <br>
                             <table class="citizen_info">Indicate your Citizenship</table>
-                            <input type="text" class="citizen" required>
+                            <input type="text" class="citizen" name="citizenship" required>
                             <br>
                             <table class="univer_info">Name Of Your University</table>
-                            <input type="text" class="univer" required>
+                            <input type="text" class="univer" name="university_name" required>
                             <br>
                             <table class="cefr_info">Upload Your English Certificate in PDF Format if You Have Any
                             </table>
-                            <input id="file" type="file" class="cefr">
+                            <input name="english_certificate" id="file" type="file" class="cefr">
                             <br>
                             <table class="it_info">Upload Your IT Certificate in PDF Format if You Have Any</table>
-                            <input id="file" type="file" class="it">
+                            <input name="it_certificate" id="file" type="file" class="it">
                             <br>
                         </div>
                         <div class="regis__right">
                             <table class="email_info">Your Email Adress</table>
-                            <input type="email" class="email" required>
+                            <input name="email" type="email" class="email" required>
                             <br>
                             <table class="number_info">Your Phone Number</table>
-                            <input type="tel" class="number" required>
+                            <input name="phone_number" type="tel" class="number" required>
                             <br>
-                            <table class="region_info">IndicateThe Region And City Of Residence</table>
-                            <input type="text" class="region" required>
+                            <table class="region_info">Indicate The Region And City Of Residence</table>
+                            <input name="region" type="text" class="region" required>
                             <br>
                             <table class="education_info">Level of your Education</table>
-                            <input list="level2" class="education" required>
+                            <input name="edu_level" list="level2" class="education" required>
                             <div>
                                 <datalist id="level2">
                                     <option value="Bachelor's degree"></option>
@@ -313,7 +313,7 @@
 
                             <br>
                             <table class="lang_info">Your English Language Level</table>
-                            <input list="level" class="lang" required>
+                            <input name="eng_level" list="level" class="lang" required>
                             <div>
                                 <datalist id="level">
                                     <option value="A1"></option>
@@ -327,7 +327,7 @@
                             <br>
                             <table class="student_info">Upload Your Student Certificate in PDF Format if You Have Any
                             </table>
-                            <input id="file" type="file" class="student_cerf">
+                            <input name="student_certificate" id="file" type="file" class="student_cerf">
                         </div>
                     </div>
                     <button type="submit" class="reg__btn">Submit</button>
